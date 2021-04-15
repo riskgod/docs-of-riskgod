@@ -366,6 +366,7 @@ left join 与 right join的区别
 
 接口 幂等
 	用在接口上就可以理解为：同一个接口，多次发出同一个请求，必须保证操作只执行一次
+	
 hashmap底层实现，如何扩容
 Stream.map 出来是什么
 Lamda表达式
@@ -374,9 +375,9 @@ hashcode and equals，usage
 Threadpool：key params，how it works
 JVM runtime data area
 MySQL composite index
-一个有限空间进行大数据量排序的方案问题
-	外排序
-		进行等量划分后 取每分进行排序先 然后 再进行归并
+#### 一个有限空间进行大数据量排序的方案问题
+外排序
+进行等量划分后 取每分进行排序先 然后 再进行归并
 
 算法
     就是问了个等价关系的查询
